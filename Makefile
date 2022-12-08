@@ -3,7 +3,7 @@ COLOUR_GREEN = \033[0;32m
 COLOUR_RED=\033[0;31m
 COLOUR_END = \033[0m
 
-CC = clang
+CC = clang++ -std=c++11
 RM = rm -rf
 
 NAME = Raytracer
